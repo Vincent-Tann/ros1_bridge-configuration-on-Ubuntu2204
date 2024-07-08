@@ -75,7 +75,7 @@ ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 created 2to1 bridge for topic '/joint_states' with ROS 2 type sensor_msgs/msg/JointState' and ROS 1 type 'sensor_msgs/JointState'
 ```
 
-新开一个ROS1 container的shell（`docker exec -it ros_noetic bash`)，查看相应话题:
+新开一个ROS1 container的shell (`docker exec -it ros_noetic bash`)，查看相应话题:
 ```bash
 # ros1 container shell 2
 source /opt/ros/noetic/setup.bash
